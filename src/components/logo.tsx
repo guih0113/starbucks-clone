@@ -1,6 +1,6 @@
 export default function Logo() {
 	return (
-		<div>
+		<div className="w-10 h-10">
 			<a aria-label="Home, Starbucks" className="block" href="./">
 				<svg
 					aria-hidden="true"
