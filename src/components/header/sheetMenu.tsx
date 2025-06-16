@@ -13,14 +13,16 @@ export function SheetMenu() {
 	return (
 		<Sheet>
 			<SheetTrigger>
-				<button className="mr-2">
+				<button>
 					<AlignJustify className="h-6 w-6 text-gray-500" />
 				</button>
 			</SheetTrigger>
 			<SheetContent>
 				<SheetHeader>
 					<SheetTitle>
-						<Logo />
+						<div className="w-10 h-10">
+							<Logo />
+						</div>
 					</SheetTitle>
 				</SheetHeader>
 				<Separator className="mb-6" />
