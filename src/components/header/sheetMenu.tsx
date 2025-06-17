@@ -13,9 +13,9 @@ export function SheetMenu() {
 	return (
 		<Sheet>
 			<SheetTrigger>
-				<button>
-					<AlignJustify className="h-6 w-6 text-gray-500" />
-				</button>
+				<div className="h-6 w-6 text-gray-500">
+					<AlignJustify />
+				</div>
 			</SheetTrigger>
 			<SheetContent>
 				<SheetHeader>

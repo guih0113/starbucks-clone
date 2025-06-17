@@ -52,7 +52,7 @@ export function Header() {
 
 			<div className="bg-darkgreen text-white px-4 py-3 md:py-4 flex justify-between items-center">
 				<h1
-					className={`${openSans.variable} font-extrabold text-sm md:text-md tracking-wide md:tracking-widest md:ml-7`}
+					className={`${openSans.variable} font-black text-sm md:text-md tracking-wide md:tracking-widest md:ml-7`}
 				>
 					STARBUCKS® REWARDS
 				</h1>
