@@ -1,13 +1,13 @@
-import Logo from "../logo";
-import { Separator } from "../ui/separator";
+import Logo from "../logo"
+import { Separator } from "../ui/separator"
 import {
 	Sheet,
 	SheetContent,
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
-} from "../ui/sheet";
-import { AlignJustify, MapPin } from "lucide-react";
+} from "../ui/sheet"
+import { AlignJustify, MapPin } from "lucide-react"
 
 export function SheetMenu() {
 	return (
@@ -50,5 +50,5 @@ export function SheetMenu() {
 				</div>
 			</SheetContent>
 		</Sheet>
-	);
+	)
 }

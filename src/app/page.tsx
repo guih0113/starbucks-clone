@@ -1,6 +1,6 @@
-import { Header } from "@/components/header/page";
-import { SectionMain } from "@/components/section-main/page";
-import { SectionSecondary } from "@/components/section-secondary/page";
+import { Header } from "@/components/header/page"
+import { SectionMain } from "@/components/section-main/page"
+import { SectionSecondary } from "@/components/section-secondary/page"
 
 export default function Home() {
 	return (
@@ -9,5 +9,5 @@ export default function Home() {
 			<SectionMain />
 			<SectionSecondary />
 		</div>
-	);
+	)
 }

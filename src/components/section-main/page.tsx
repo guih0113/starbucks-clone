@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export function SectionMain() {
 	return (
@@ -30,5 +30,5 @@ export function SectionMain() {
 				</div>
 			</div>
 		</section>
-	);
+	)
 }

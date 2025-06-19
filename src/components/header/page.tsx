@@ -1,13 +1,13 @@
-import { MapPin } from "lucide-react";
-import Logo from "../logo";
-import { SheetMenu } from "./sheetMenu";
-import { Open_Sans } from "next/font/google";
+import { MapPin } from "lucide-react"
+import Logo from "../logo"
+import { SheetMenu } from "./sheetMenu"
+import { Open_Sans } from "next/font/google"
 
 const openSans = Open_Sans({
 	subsets: ["latin"],
 	weight: ["700"], // bold
 	variable: "--font-open-sans",
-});
+})
 
 export function Header() {
 	return (
@@ -61,5 +61,5 @@ export function Header() {
 				</button>
 			</div>
 		</header>
-	);
+	)
 }

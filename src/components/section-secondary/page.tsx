@@ -47,5 +47,5 @@ export function SectionSecondary() {
 				</div>
 			</div>
 		</section>
-	);
+	)
 }
