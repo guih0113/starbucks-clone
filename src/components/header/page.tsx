@@ -14,7 +14,10 @@ export function Header() {
 					<nav className="hidden md:block">
 						<ul className="flex gap-6 font-bold text-md tracking-widest">
 							<li className="cursor-pointer hover:text-green-700">MENU</li>
-							<li className="cursor-pointer hover:text-green-700">REWARDS</li>
+							<li className="cursor-pointer hover:text-green-700 relative">
+								REWARDS
+								<div className="absolute top-15 left-0 w-full h-2 bg-green-800"></div>
+							</li>
 							<li className="cursor-pointer hover:text-green-700">
 								GIFT CARDS
 							</li>
