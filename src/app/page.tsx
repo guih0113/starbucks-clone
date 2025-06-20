@@ -1,6 +1,6 @@
 import { Header } from "@/components/header/page"
 import { SectionMain } from "@/components/section-main/page"
-import { SectionSecondary } from "@/components/section-secondary/page"
+import { GettingStarted } from "./../components/getting-started/page"
 import StickyContainer from "@/components/sticky-container/page"
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 			<Header />
 			<StickyContainer />
 			<SectionMain />
-			<SectionSecondary />
+			<GettingStarted />
 		</div>
 	)
 }

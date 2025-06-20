@@ -1,6 +1,6 @@
 import { Card } from "./card"
 
-export function SectionSecondary() {
+export function GettingStarted() {
 	return (
 		<section className="py-8 px-6 md:py-20 md:px-26">
 			<div className="flex flex-col items-center justify-center text-center gap-10 md:gap-14 text-darkgreen">
