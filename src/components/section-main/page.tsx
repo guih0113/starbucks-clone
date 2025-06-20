@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function SectionMain() {
 	return (
-		<section className="h-72 md:h-[500px] bg-cream">
+		<section className="md:h-[500px] bg-cream">
 			<div className="h-full grid grid-cols-1 md:grid-cols-2 lg:px-12">
 				<div className="flex flex-col gap-5 justify-center items-center md:items-start py-6 px-4 md:px-20 text-center text-darkgreen">
 					<h2 className="text-3xl font-bold md:text-6xl md:font-semibold md:text-left">
@@ -25,7 +25,7 @@ export function SectionMain() {
 						alt="Rewards Hero"
 						fill
 						quality={100}
-						className="object-cover"
+						className="object-cover md:object-contain"
 					/>
 				</div>
 			</div>
