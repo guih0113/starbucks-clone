@@ -2,10 +2,10 @@ import { Card } from "./card"
 
 export function GettingStarted() {
 	return (
-		<section className="py-8 px-6 md:py-20 md:px-26">
-			<div className="flex flex-col items-center justify-center text-center gap-10 md:gap-14 text-darkgreen">
+		<section className="px-6 py-8 md:px-26 md:py-19">
+			<div className="text-darkgreen flex flex-col items-center justify-center gap-10 text-center md:gap-14">
 				<div className="space-y-4">
-					<h2 className="font-semibold text-xl md:text-3xl md:font-bold">
+					<h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
 						Getting started is easy
 					</h2>
 					<p className="text-sm font-medium md:text-lg">
@@ -13,7 +13,7 @@ export function GettingStarted() {
 					</p>
 				</div>
 
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+				<div className="grid grid-cols-1 gap-10 md:grid-cols-3">
 					<Card
 						number={1}
 						title="Download the Starbucks® app"
