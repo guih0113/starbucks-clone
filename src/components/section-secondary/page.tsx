@@ -2,8 +2,8 @@ import { Card } from "./card"
 
 export function SectionSecondary() {
 	return (
-		<section className="py-8 px-6 md:py-16 md:px-26">
-			<div className="flex flex-col items-center justify-center text-center gap-10 text-darkgreen">
+		<section className="py-8 px-6 md:py-20 md:px-26">
+			<div className="flex flex-col items-center justify-center text-center gap-10 md:gap-14 text-darkgreen">
 				<div className="space-y-4">
 					<h2 className="font-semibold text-xl md:text-3xl md:font-bold">
 						Getting started is easy
