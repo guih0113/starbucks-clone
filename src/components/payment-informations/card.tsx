@@ -20,8 +20,8 @@ export function Card({ imgUrl, title, description }: InformationProps) {
 			</div>
 
 			<div className="space-y-4">
-				<h4 className="font-bold">{title}</h4>
-				<p className="text-sm font-medium">{description}</p>
+				<h4 className="font-bold md:text-xl">{title}</h4>
+				<p className="text-sm font-medium md:w-sm md:text-lg">{description}</p>
 			</div>
 		</div>
 	)
