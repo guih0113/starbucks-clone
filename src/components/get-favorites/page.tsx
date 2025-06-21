@@ -17,7 +17,7 @@ export function GetFavorites() {
 				</div>
 			</div>
 
-			<div className="bg-mint grid grid-cols-1 items-center justify-center gap-7 px-6 py-10 text-center md:grid-cols-2 md:text-left lg:px-64 xl:px-88">
+			<div className="bg-mint grid grid-cols-1 items-center justify-center gap-7 px-6 py-8 text-center md:grid-cols-2 md:text-left lg:px-64 xl:px-88">
 				<div className="w-fit">
 					<Image
 						src="/reward-tier-1.png"
