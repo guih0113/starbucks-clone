@@ -23,7 +23,7 @@ export function EndlessExtras() {
 	]
 
 	return (
-		<section className="space-y-8 px-4 py-14 md:px-28 md:py-32">
+		<section className="space-y-12 px-4 py-14 md:px-28 md:py-32">
 			<div className="flex flex-col items-center justify-center gap-5">
 				<h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
 					Endless Extras
@@ -41,12 +41,13 @@ export function EndlessExtras() {
 							className="flex gap-4 md:flex-col md:items-center"
 							key={item.title}
 						>
-							<div className="w-fit">
+							<div className="w-fit min-w-[120px]">
 								<Image
 									src={item.imgUrl}
 									alt={item.title}
 									width={120}
 									height={120}
+									quality={100}
 								/>
 							</div>
 
@@ -57,7 +58,7 @@ export function EndlessExtras() {
 								<p className="text-sm font-medium md:w-md md:text-base">
 									{item.description}
 								</p>
-								<span className="cursor-pointer font-medium text-green-700 underline hover:no-underline">
+								<span className="cursor-pointer text-sm font-medium text-green-700 underline hover:no-underline md:text-base">
 									Learn more
 								</span>
 							</div>
