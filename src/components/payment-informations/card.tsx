@@ -13,15 +13,15 @@ export function Card({ imgUrl, title, description }: InformationProps) {
 				<Image
 					src={imgUrl}
 					alt={title}
-					width={120}
-					height={120}
+					width={125}
+					height={125}
 					quality={100}
 				/>
 			</div>
 
-			<div className="space-y-4">
+			<div className="space-y-4 md:space-y-6">
 				<h4 className="font-bold md:text-xl">{title}</h4>
-				<p className="text-sm font-medium md:w-sm md:text-lg">{description}</p>
+				<p className="text-sm font-medium md:w-xs md:text-lg">{description}</p>
 			</div>
 		</div>
 	)
