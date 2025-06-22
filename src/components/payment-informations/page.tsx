@@ -23,7 +23,7 @@ export function PaymentInformations() {
 						<p className="text-sm font-medium md:text-base">Pay as you go</p>
 					</div>
 
-					<div className="flex gap-10">
+					<div className="flex flex-col gap-10 md:flex-row">
 						<Card
 							imgUrl="/payment-1.png"
 							title="Scan and pay separately"
@@ -47,7 +47,7 @@ export function PaymentInformations() {
 						</p>
 					</div>
 
-					<div className="flex gap-10">
+					<div className="flex flex-col gap-10 md:flex-row">
 						<Card
 							imgUrl="/payment-3.png"
 							title="Preload"
