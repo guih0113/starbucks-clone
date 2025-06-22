@@ -5,6 +5,7 @@ import StickyContainer from "@/components/sticky-container/page"
 import { GetFavorites } from "@/components/get-favorites/page"
 import { EndlessExtras } from "@/components/endless-extras/page"
 import { PaymentInformations } from "@/components/payment-informations/page"
+import { RewardsComing } from "@/components/rewards-coming/page"
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<GetFavorites />
 			<EndlessExtras />
 			<PaymentInformations />
+			<RewardsComing />
 		</div>
 	)
 }
