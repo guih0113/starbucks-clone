@@ -1,5 +1,5 @@
 import { MapPin } from "lucide-react"
-import Logo from "../logo"
+import Logo from "./logo"
 import { SheetMenu } from "./sheetMenu"
 
 export function Header() {
