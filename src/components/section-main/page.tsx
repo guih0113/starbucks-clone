@@ -14,7 +14,7 @@ export function SectionMain() {
 					<button className="rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
 						Join in the app
 					</button>
-					<span className="text-sm font-medium underline md:mt-[-10px] md:ml-2 md:text-lg">
+					<span className="cursor-pointer text-sm font-medium underline hover:no-underline md:mt-[-10px] md:ml-2 md:text-lg">
 						Or join online
 					</span>
 				</div>
