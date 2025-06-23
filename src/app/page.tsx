@@ -6,6 +6,7 @@ import { GetFavorites } from "@/components/get-favorites/page"
 import { EndlessExtras } from "@/components/endless-extras/page"
 import { PaymentInformations } from "@/components/payment-informations/page"
 import { RewardsComing } from "@/components/rewards-coming/page"
+import { Questions } from "@/components/questions/page"
 
 export default function Home() {
 	return (
@@ -18,6 +19,7 @@ export default function Home() {
 			<EndlessExtras />
 			<PaymentInformations />
 			<RewardsComing />
+			<Questions />
 		</div>
 	)
 }
