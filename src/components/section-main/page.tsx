@@ -11,7 +11,7 @@ export function SectionMain() {
 					<p className="md:text-xl">
 						Sign up and start enjoying the perks of Starbucks® Rewards.
 					</p>
-					<button className="rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
+					<button className="cursor-pointer rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white hover:bg-green-800/90 md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
 						Join in the app
 					</button>
 					<span className="cursor-pointer text-sm font-medium underline hover:no-underline md:mt-[-10px] md:ml-2 md:text-lg">

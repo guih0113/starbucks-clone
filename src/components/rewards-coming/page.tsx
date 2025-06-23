@@ -24,7 +24,7 @@ export function RewardsComing() {
 	]
 
 	return (
-		<section className="md:bg-[url(/rewards-coming-bg.png)] md:bg-cover md:px-8 md:py-6">
+		<section className="md:bg-[url(/rewards-coming-bg.png)] md:bg-cover md:p-8">
 			<div className="bg-mint flex flex-col items-center gap-14 px-4 py-6 md:px-9">
 				<div className="flex flex-col items-center gap-5 text-center">
 					<h2 className="text-xl font-semibold md:text-3xl md:font-bold">
@@ -54,7 +54,7 @@ export function RewardsComing() {
 									/>
 								</div>
 								<div className="flex flex-col text-sm md:items-center md:text-center md:text-lg">
-									<span className="flex items-center gap-1 text-green-900 underline">
+									<span className="flex cursor-pointer items-center gap-1 text-green-900 underline hover:no-underline">
 										{item.title} <SquareArrowOutUpRight size={12} />
 									</span>
 									<p>{item.description}</p>
@@ -64,7 +64,7 @@ export function RewardsComing() {
 					})}
 				</div>
 
-				<button className="w-fit rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
+				<button className="w-fit cursor-pointer rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white hover:bg-green-800/90 md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
 					Join Starbucks® Rewards
 				</button>
 			</div>
