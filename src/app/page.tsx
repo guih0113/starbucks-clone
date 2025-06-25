@@ -9,6 +9,7 @@ import { RewardsComing } from "@/components/rewards-coming/page"
 import { Questions } from "@/components/questions/page"
 import { MoreInformation } from "@/components/more-information/page"
 import { Separator } from "@/components/ui/separator"
+import { Footer } from "@/components/footer/page"
 
 export default function Home() {
 	return (
@@ -23,7 +24,8 @@ export default function Home() {
 			<RewardsComing />
 			<Questions />
 			<MoreInformation />
-			<Separator className="my-12 border-[2px] border-gray-200" />
+			<Separator className="my-12 border border-gray-200" />
+			<Footer />
 		</div>
 	)
 }
