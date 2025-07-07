@@ -20,14 +20,14 @@ export function SheetMenu() {
 			<SheetContent>
 				<SheetHeader>
 					<SheetTitle>
-						<div className="w-10 h-10">
+						<div className="h-10 w-10">
 							<Logo />
 						</div>
 					</SheetTitle>
 				</SheetHeader>
 				<Separator className="mb-6" />
 				<div className="px-6">
-					<div className="text-xl flex flex-col gap-8">
+					<div className="flex flex-col gap-8 text-xl">
 						<span>Menu</span>
 						<span>Rewards</span>
 						<span>Gift Cards</span>
@@ -35,16 +35,16 @@ export function SheetMenu() {
 
 					<Separator className="my-9" />
 
-					<div className="space-x-4 space-y-5">
-						<button className="border border-black rounded-xl px-4 py-1 font-semibold text-sm">
+					<div className="space-y-5 space-x-4">
+						<button className="rounded-xl border border-black px-4 py-1 text-sm font-semibold">
 							Sign in
 						</button>
-						<button className="bg-black text-white rounded-xl px-4 py-1.5 font-bold text-sm">
+						<button className="rounded-xl bg-black px-4 py-1.5 text-sm font-bold text-white">
 							Join now
 						</button>
 						<div className="flex gap-2">
 							<MapPin />
-							<span className="font-semibold text-sm">Find a store</span>
+							<span className="text-sm font-semibold">Find a store</span>
 						</div>
 					</div>
 				</div>

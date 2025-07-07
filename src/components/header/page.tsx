@@ -11,7 +11,7 @@ export function Header() {
 						<Logo />
 					</div>
 
-					<nav className="hidden md:block">
+					<nav className="hidden lg:block">
 						<ul className="text-md flex gap-6 font-bold tracking-widest">
 							<li className="cursor-pointer hover:text-green-700">MENU</li>
 							<li className="relative cursor-pointer hover:text-green-700">
@@ -25,7 +25,7 @@ export function Header() {
 					</nav>
 				</div>
 
-				<div className="hidden items-center gap-12 md:flex">
+				<div className="hidden items-center gap-12 lg:flex">
 					<div className="text-md flex cursor-pointer items-center gap-3 font-extrabold hover:text-green-700">
 						<MapPin />
 						<span className="font-bold">Find a store</span>
@@ -41,7 +41,7 @@ export function Header() {
 					</div>
 				</div>
 
-				<div className="flex md:hidden">
+				<div className="flex lg:hidden">
 					<SheetMenu />
 				</div>
 			</div>
