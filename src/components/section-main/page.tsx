@@ -2,13 +2,13 @@ import Image from "next/image"
 
 export function SectionMain() {
 	return (
-		<section className="bg-cream md:h-[500px]">
-			<div className="grid h-full grid-cols-1 md:grid-cols-2 lg:px-12">
-				<div className="text-darkgreen flex flex-col items-center justify-center gap-5 px-4 py-6 text-center md:items-start md:px-20">
-					<h2 className="text-3xl font-bold md:text-left md:text-6xl md:font-semibold">
-						It’s a great day for <br /> free coffee
+		<section className="bg-cream md:h-[400px] lg:h-[450px] xl:h-[500px]">
+			<div className="grid h-full grid-cols-1 md:grid-cols-2 md:pl-8 2xl:px-12">
+				<div className="text-darkgreen flex flex-col items-center justify-center gap-5 px-4 py-6 text-center md:items-start 2xl:ml-20">
+					<h2 className="text-center text-3xl font-bold md:w-xs md:text-left md:text-3xl lg:w-md lg:text-4xl xl:w-lg xl:text-left xl:text-5xl">
+						It’s a great day for free coffee
 					</h2>
-					<p className="md:text-xl">
+					<p className="text-left md:text-xl">
 						Sign up and start enjoying the perks of Starbucks® Rewards.
 					</p>
 					<button className="cursor-pointer rounded-2xl bg-green-800 px-4 py-2 text-sm font-semibold text-white hover:bg-green-800/90 md:mt-5 md:rounded-3xl md:px-6 md:text-lg md:font-bold">
@@ -25,7 +25,7 @@ export function SectionMain() {
 						alt="Rewards Hero"
 						fill
 						quality={100}
-						className="object-cover md:object-contain"
+						className="object-fill md:object-cover"
 					/>
 				</div>
 			</div>
