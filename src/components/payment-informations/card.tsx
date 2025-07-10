@@ -8,7 +8,7 @@ interface InformationProps {
 
 export function Card({ imgUrl, title, description }: InformationProps) {
 	return (
-		<div className="flex gap-6">
+		<div className="flex w-fit gap-6">
 			<div className="w-fit min-w-[120px]">
 				<Image
 					src={imgUrl}
@@ -20,8 +20,10 @@ export function Card({ imgUrl, title, description }: InformationProps) {
 			</div>
 
 			<div className="space-y-4 md:space-y-6">
-				<h4 className="font-bold md:text-xl">{title}</h4>
-				<p className="text-sm font-medium md:w-xs md:text-lg">{description}</p>
+				<h4 className="font-bold md:w-[200px] md:text-xl">{title}</h4>
+				<p className="text-sm font-medium md:w-3xs md:text-lg lg:w-xs">
+					{description}
+				</p>
 			</div>
 		</div>
 	)

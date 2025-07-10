@@ -51,7 +51,7 @@ export function MoreInformation() {
 						<CornerDownLeft size={14} />
 					</span>
 				</p>
-				<div className="flex flex-col gap-3 md:flex-row md:gap-14">
+				<div className="flex flex-col gap-3 lg:flex-row lg:gap-14">
 					<div>
 						<div className="space-y-4 md:w-3xl">
 							<h2 className="pt-4 font-bold tracking-widest text-gray-500">
@@ -61,14 +61,14 @@ export function MoreInformation() {
 								Stars cannot be earned on purchases of alcohol, Starbucks Cards
 								or Starbucks Card reloads.
 							</p>
-							<p>
+							<p className="lg:w-2xl">
 								Earn 1 Star per $1 spent when you scan your member barcode in
 								the app, then pay with cash, credit/debit cards or mobile
 								wallets at participating stores. You can also earn 1 Star per $1
 								spent when you link a payment method and pay directly through
 								the app.
 							</p>
-							<p>
+							<p className="lg:w-2xl">
 								Earn 2 Stars per $1 spent when you load funds and pay with your
 								digital Starbucks Card in the app. You can also earn 2 Stars per
 								$1 spent when you pay in-person at a participating store with
@@ -82,7 +82,7 @@ export function MoreInformation() {
 							<h2 className="pt-4 font-bold tracking-widest text-gray-500">
 								BENEFITS
 							</h2>
-							<p>
+							<p className="lg:w-2xl">
 								Free refills available during same in-store visit only. To
 								qualify for the Birthday Reward, you must have made at least one
 								Star-earning transaction.
@@ -98,7 +98,7 @@ export function MoreInformation() {
 								For full program details visit{" "}
 								<Span text="starbucks.com/rewards/terms" />.
 							</p>
-							<p>
+							<p className="lg:w-2xl">
 								Starbucks® Rewards benefits are available at participating
 								Starbucks stores. Not all stores have the ability to honor
 								Rewards at this time. Visit the{" "}
@@ -110,7 +110,7 @@ export function MoreInformation() {
 							<h2 className="pt-4 font-bold tracking-widest text-gray-500">
 								REDEEMING REWARDS
 							</h2>
-							<p>
+							<p className="lg:w-2xl">
 								Rewards cannot be redeemed for alcoholic beverages or
 								multi-serve items. You pay the difference for any beverage
 								customization over $1 and/or merchandise item over $20. Not all

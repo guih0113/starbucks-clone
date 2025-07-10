@@ -1,5 +1,5 @@
-import Image from "next/image"
 import { SquareArrowOutUpRight } from "lucide-react"
+import Image from "next/image"
 
 export function RewardsComing() {
 	const cards = [
@@ -54,10 +54,12 @@ export function RewardsComing() {
 									/>
 								</div>
 								<div className="flex flex-col text-sm md:items-center md:text-center md:text-lg">
-									<span className="flex cursor-pointer items-center gap-1 text-green-900 underline hover:no-underline">
-										{item.title} <SquareArrowOutUpRight size={12} />
-									</span>
-									<p>{item.description}</p>
+									<p>
+										<span className="inline-flex w-fit cursor-pointer items-center gap-1 text-green-900 underline hover:no-underline">
+											{item.title} <SquareArrowOutUpRight size={16} />
+										</span>{" "}
+										{item.description}
+									</p>
 								</div>
 							</div>
 						)

@@ -3,27 +3,27 @@ import { Card } from "./card"
 
 export function PaymentInformations() {
 	return (
-		<section className="bg-cream space-y-15 px-4 py-16 md:px-12">
+		<section className="bg-cream space-y-15 px-4 py-16 md:px-8">
 			<div className="flex flex-col items-center justify-center gap-5">
 				<h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
 					Cash or card, you earn Stars
 				</h2>
-				<p className="text-center text-sm font-medium md:w-3xl md:text-lg">
+				<p className="text-center text-sm font-medium md:w-xl md:text-lg">
 					No matter how you pay, you can earn Stars with your morning coffee.
 					Those Stars add up to (really delicious) Rewards.
 				</p>
 			</div>
 
-			<div className="space-y-6">
-				<div className="flex flex-col gap-8 md:flex-row md:gap-27">
-					<div className="md:space-y-2">
+			<div className="w-fit space-y-6">
+				<div className="flex flex-col gap-8 lg:flex-row lg:gap-27">
+					<div className="w-fit md:space-y-2">
 						<h3 className="text-lg font-semibold md:text-2xl">
 							1★{"  "}Star per dollar
 						</h3>
 						<p className="text-sm font-medium md:text-base">Pay as you go</p>
 					</div>
 
-					<div className="flex flex-col gap-10 md:flex-row">
+					<div className="flex flex-col gap-10 md:flex-row md:gap-0 lg:gap-12">
 						<Card
 							imgUrl="/payment-1.png"
 							title="Scan and pay separately"
@@ -37,7 +37,7 @@ export function PaymentInformations() {
 					</div>
 				</div>
 				<Separator className="mb-10" />
-				<div className="flex flex-col gap-8 md:flex-row md:gap-27">
+				<div className="flex flex-col gap-8 lg:flex-row lg:gap-27">
 					<div className="md:space-y-2">
 						<h3 className="text-lg font-semibold md:text-2xl">
 							2★{"  "}Stars per dollar
@@ -47,7 +47,7 @@ export function PaymentInformations() {
 						</p>
 					</div>
 
-					<div className="flex flex-col gap-10 md:flex-row">
+					<div className="flex flex-col gap-10 md:flex-row md:gap-0 lg:gap-12">
 						<Card
 							imgUrl="/payment-3.png"
 							title="Preload"
