@@ -23,22 +23,22 @@ export function EndlessExtras() {
 	]
 
 	return (
-		<section className="space-y-12 px-4 py-14 md:px-28 md:py-32">
+		<section className="space-y-14 px-4 py-14 lg:px-28 lg:py-32">
 			<div className="flex flex-col items-center justify-center gap-5">
 				<h2 className="text-2xl font-semibold md:text-3xl md:font-bold">
 					Endless Extras
 				</h2>
-				<p className="text-center text-sm font-medium md:w-3xl md:text-lg">
+				<p className="text-center text-sm font-medium md:w-2xl md:text-lg">
 					Joining Starbucks® Rewards means unlocking access to benefits like
 					quick and easy ordering, tasty Rewards and—yes, free coffee.
 				</p>
 			</div>
 
-			<div className="grid grid-cols-1 gap-14 md:grid-cols-3">
+			<div className="grid grid-cols-1 gap-14 lg:grid-cols-3">
 				{cards.map((item) => {
 					return (
 						<div
-							className="flex gap-4 md:flex-col md:items-center"
+							className="flex gap-4 lg:flex-col lg:items-center"
 							key={item.title}
 						>
 							<div className="w-fit min-w-[120px]">
@@ -51,14 +51,14 @@ export function EndlessExtras() {
 								/>
 							</div>
 
-							<div className="space-y-5 md:text-center">
-								<h3 className="text-lg font-semibold md:text-2xl">
+							<div className="space-y-5 lg:text-center">
+								<h3 className="text-lg font-semibold lg:text-2xl">
 									{item.title}
 								</h3>
-								<p className="text-sm font-medium md:w-md md:text-base">
+								<p className="text-sm font-medium lg:w-3xs lg:text-base xl:w-sm">
 									{item.description}
 								</p>
-								<span className="cursor-pointer text-sm font-medium text-green-700 underline hover:no-underline md:text-base">
+								<span className="cursor-pointer text-sm font-medium text-green-700 underline hover:no-underline lg:text-base">
 									Learn more
 								</span>
 							</div>
