@@ -1,5 +1,5 @@
-import { Button } from "./button"
 import Image from "next/image"
+import { Button } from "./button"
 
 export function GetFavorites() {
 	return (
@@ -17,8 +17,8 @@ export function GetFavorites() {
 				</div>
 			</div>
 
-			<div className="bg-mint grid grid-cols-1 items-center justify-center gap-7 px-6 py-8 text-center md:grid-cols-2 md:text-left lg:px-64 xl:px-88">
-				<div className="w-fit">
+			<div className="bg-mint flex flex-col items-center justify-center gap-8 px-6 py-8 text-center lg:flex-row">
+				<div className="flex justify-center">
 					<Image
 						src="/reward-tier-1.png"
 						alt="Rewards Tier"
@@ -27,11 +27,11 @@ export function GetFavorites() {
 						quality={100}
 					/>
 				</div>
-				<div className="flex flex-col gap-6">
-					<h3 className="text-lg font-semibold md:text-2xl md:font-bold">
+				<div className="flex w-fit flex-col gap-6">
+					<h3 className="text-center text-lg font-semibold md:text-2xl md:font-bold lg:text-left">
 						Customize your drink
 					</h3>
-					<p className="text-sm font-medium md:w-md md:text-lg">
+					<p className="text-sm font-medium md:w-md md:text-lg lg:text-left">
 						Make your drink just right with an extra espresso shot or a dash of
 						your favorite syrup.
 					</p>
