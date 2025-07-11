@@ -13,7 +13,7 @@ import { Footer } from "@/components/footer/page"
 
 export default function Home() {
 	return (
-		<div>
+		<div className="overflow-x-hidden">
 			<Header />
 			<StickyContainer />
 			<SectionMain />

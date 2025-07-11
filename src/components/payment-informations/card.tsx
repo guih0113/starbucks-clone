@@ -21,7 +21,7 @@ export function Card({ imgUrl, title, description }: InformationProps) {
 
 			<div className="space-y-4 md:space-y-6">
 				<h4 className="font-bold md:w-[200px] md:text-xl">{title}</h4>
-				<p className="text-sm font-medium md:w-3xs md:text-lg lg:w-xs">
+				<p className="text-sm font-medium md:w-50 md:text-lg lg:w-xs">
 					{description}
 				</p>
 			</div>
